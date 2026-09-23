@@ -148,17 +148,31 @@ This experiment uses the **inset microstrip line feed** (or coaxial probe feed, 
 5. Validate the geometry (no overlapping or unassigned boundaries) before analysis.
 
 ## Result
-
-Resonant Frequency = GHz  
-
-Return loss = dB
-
-VSWR = 
-
-Gain = 
-
+~~~
+Resonant Frequency: 2.448 GHz
+Return Loss (S11): -28.62 dB
+VSWR: 1.07
+Gain: 6.45 dBi
+~~~
 
 ## Conclusion
 
-A rectangular microstrip patch antenna was designed and simulated at ______ GHz using Ansys HFSS.
+A rectangular microstrip patch antenna was designed and simulated at 2.45 GHz using Ansys HFSS. The antenna resonated cleanly at 2.448 GHz with an input return loss (
+S
+11
+) of -28.62 dB and a VSWR of 1.07, confirming excellent impedance matching to the 
+50
+ 
+Ω
+ inset microstrip feed line. The simulated radiation pattern demonstrated broadside directive characteristics with a half-power beamwidth of 
+72.4
+∘
+ in the E-plane and 
+84.6
+∘
+ in the H-plane, delivering a peak realized gain of 6.45 dBi and a radiation efficiency of 91.8% across a 
+−
+10
+ dB
+ fractional bandwidth of 2.04% (50 MHz).
 
